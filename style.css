@@ -1,0 +1,134 @@
+body{
+    background-color: #181818;
+    color: white;
+    font-family: 'Arima', cursive;
+    letter-spacing: 1px;
+    
+}
+
+div.boxes {
+    display: flex;
+    flex: 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px;
+}
+
+div.boxes div.box {
+    text-align: center;
+    background-color: #404040;
+    width: 250px;
+    height: auto;
+    /* border: 2px solid white; */
+    border-radius: 10px;
+    margin: 10px 10px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+button, input#form-submit, input#form-cancel {
+    font-family: 'Arima', cursive;
+    font-weight: bold;
+    border: 2px solid white;
+    background: none;
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    font-size: 25;
+    cursor: pointer;
+    word-wrap: break-word;
+    padding: 5px 5px;
+    color: white;
+    
+}
+
+div.boxes div.box div.title {
+    padding: 10px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    min-height: 65px;
+    background-color: #282828;
+    color: white;
+    text-decoration: underline;
+}
+div.boxes div.box div.title h2 {
+    margin: 0px 0px;
+}
+
+button:hover, #form-submit:hover, #form-cancel:hover {
+    background-color: #ffff;
+    color: black;
+}
+
+
+
+form#form {
+    display: none;
+    margin: auto;
+    font-size: large;
+    border: 2px solid white;
+    display: inline-block;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    padding: 10px 10px;
+    font-weight: bold;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+form#form label {
+    font-size: x-large;
+}
+
+input {
+    display: inline-block;
+    /* border: 2px solid blue; */
+    margin: 10px 10px;
+    height: auto;
+    font-size: large;
+    text-align: center;
+    border-radius: 5px;
+}
+
+form#form input#read-status {
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+}
+
+header{
+    text-align: center;
+    /* border: 2px solid white; */
+    min-height: 200px;
+}
+header h1 {
+    font-size: 100px;
+    text-decoration: underline;
+}
+.center-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button#show-form{
+    display: inline-block;
+    font-size: 30px;
+    width: auto;
+    padding: 10px 25px;
+    margin: auto;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+}
+button#show-form:hover {
+    background: none;
+    color: white;
+}
+
+.rmbtn {
+    font-size: 20px;
+}
